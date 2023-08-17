@@ -1,5 +1,5 @@
 # Patika SQL Eğitimi
-![sqllogo](https://github.com/mehmetdurankaya/SQL/assets/44356848/d62fd36b-5ce1-435f-a211-c787ed849bd9)
+![sqllogo](https://github.com/mehmetdurankaya/SQL/assets/44356848/d62fd36b-5ce1-435f-a211-c787ed849bd9  width="450" height="250")
 
 # [ödev-1](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-1) 
 # [ödev-2](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-2) 
