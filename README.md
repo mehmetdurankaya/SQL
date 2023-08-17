@@ -61,4 +61,4 @@
 	AND replacement_cost IN (12.99,15.90,28.99);
 
    </span>
-</span>div>
+</div>
