@@ -1,5 +1,6 @@
 # PATİKADEV SQL
-Patika SQL Eğitimi
+# Patika SQL Eğitimi
+
 # [ODEV-1](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-1) 
 
 
@@ -9,7 +10,7 @@ Patika SQL Eğitimi
 <div>
 <span font-size:20px>
 
-# ÖDEV-1
+### ÖDEV-1
 --Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
 	SELECT * FROM film;
