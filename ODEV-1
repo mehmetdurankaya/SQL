@@ -1,6 +1,5 @@
 
 
-<span style="color:green;font-weight:700;font-size:20px"> 
 # ÖDEV-1
 --Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
@@ -33,4 +32,4 @@
 	AND NOT rental_rate=2.99 
 	OR rental_rate =4.99;
 
-</span>
+
