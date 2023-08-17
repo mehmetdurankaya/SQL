@@ -42,7 +42,9 @@
 </div>
 
 
--- ÖDEV 2
+### ÖDEV 2
+<div>
+<span font-size:20px>
 -- 1- film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
 	
 	SELECT * FROM film 
@@ -57,3 +59,6 @@
 	SELECT * FROM film 
 	WHERE rental_rate IN (0.99,2.99,4.99)
 	AND replacement_cost IN (12.99,15.90,28.99);
+
+   </span>
+</span>div>
