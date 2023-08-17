@@ -2,7 +2,7 @@
 
 # [ödev-1](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-1) 
 # [ödev-2](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-2) 
-
+# [ödev-3](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-3) 
 
 
 ### ÖDEV-1
@@ -59,6 +59,37 @@
         SELECT * FROM film 
 	WHERE rental_rate IN (0.99,2.99,4.99)
 	AND replacement_cost IN (12.99,15.90,28.99);
+
+ 
+ ### ÖDEV 3
+
+-- 1- country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
+	
+	SELECT 
+	country 
+	FROM country
+	WHERE country LIKE 'A%a';
+
+-- 2- country tablosunda bulunan country sütunundaki ülke isimlerinden en az 6 karakterden oluşan ve sonu 'n' karakteri ile sonlananları sıralayınız.
+	
+	SELECT
+	country 
+	FROM country 
+	WHERE length(country) >= 6 AND RIGHT(country,1)='n';
+
+-- 3- film tablosunda bulunan title sütunundaki film isimlerinden en az 4 adet büyük ya da küçük harf farketmesizin 'T' karakteri içeren film isimlerini sıralayınız.
+	
+	SELECT title 
+	FROM film 
+	WHERE length(title) >= 4 AND title ILIKE '%T%'; 
+
+
+-- 4- film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
+	
+	SELECT * 
+	FROM film 
+	WHERE title LIKE 'C%' AND length > 90 AND rental_rate=2.99;
+
 
    </span>
 </div>
