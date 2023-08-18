@@ -1,0 +1,248 @@
+-- 1.test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+
+CREATE TABLE employee
+(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	birthday DATE,
+	email VARCHAR(100)
+);
+-----------------------------------------------------------------------------------------------------------------
+
+-- 2. Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+--                 https://www.mockaroo.com/
+
+insert into employee (name, birthday, email) values ('Debor', '2023/05/04', 'dmunkley0@hubpages.com');
+insert into employee (name, birthday, email) values ('Jean', '2023/03/26', 'joolahan1@slashdot.org');
+insert into employee (name, birthday, email) values ('Kendricks', '2022/12/02', 'kbradmore2@sphinn.com');
+insert into employee (name, birthday, email) values ('Neall', '2022/12/07', 'nlodin3@google.fr');
+insert into employee (name, birthday, email) values ('Nanny', '2022/08/21', 'nbaulcombe4@umn.edu');
+insert into employee (name, birthday, email) values ('Bartholomew', '2022/12/12', 'bskippen5@eepurl.com');
+insert into employee (name, birthday, email) values ('Bellanca', '2022/12/09', 'bdroghan6@pcworld.com');
+insert into employee (name, birthday, email) values ('Salli', '2023/03/05', 'sseamons7@freewebs.com');
+insert into employee (name, birthday, email) values ('Zollie', '2023/06/24', 'zginn8@independent.co.uk');
+insert into employee (name, birthday, email) values ('Cori', '2023/01/04', 'crudgerd9@baidu.com');
+insert into employee (name, birthday, email) values ('Clayborn', '2023/03/20', 'carlta@clickbank.net');
+insert into employee (name, birthday, email) values ('Melisse', '2022/10/06', 'malfonsettob@ebay.co.uk');
+insert into employee (name, birthday, email) values ('Rozalie', '2022/11/13', 'rhazellc@networkadvertising.org');
+insert into employee (name, birthday, email) values ('Devin', '2022/12/02', 'dcoppingd@meetup.com');
+insert into employee (name, birthday, email) values ('Tedman', '2022/09/07', 'tspawelle@tuttocitta.it');
+insert into employee (name, birthday, email) values ('Lorens', '2022/10/13', 'lsharplef@newsvine.com');
+insert into employee (name, birthday, email) values ('Rycca', '2023/05/02', 'rorknayg@chicagotribune.com');
+insert into employee (name, birthday, email) values ('Janek', '2022/10/09', 'jfladeh@google.co.uk');
+insert into employee (name, birthday, email) values ('Abigale', '2023/06/02', 'apayliei@walmart.com');
+insert into employee (name, birthday, email) values ('Susette', '2023/02/08', 'sberresfordj@ftc.gov');
+insert into employee (name, birthday, email) values ('Vida', '2023/01/17', 'vnapthinek@storify.com');
+insert into employee (name, birthday, email) values ('Andee', '2023/07/10', 'aoslarl@sfgate.com');
+insert into employee (name, birthday, email) values ('Ertha', '2022/08/18', 'eleehanem@who.int');
+insert into employee (name, birthday, email) values ('Freddy', '2023/07/12', 'flemmersn@nifty.com');
+insert into employee (name, birthday, email) values ('Iormina', '2022/12/23', 'igagino@tripadvisor.com');
+insert into employee (name, birthday, email) values ('Jory', '2023/02/11', 'jgerrietp@pen.io');
+insert into employee (name, birthday, email) values ('Nesta', '2023/04/21', 'nimasonq@chron.com');
+insert into employee (name, birthday, email) values ('Killian', '2023/01/26', 'kballantiner@behance.net');
+insert into employee (name, birthday, email) values ('Marc', '2023/03/02', 'mlemarquands@bravesites.com');
+insert into employee (name, birthday, email) values ('Natalee', '2022/12/06', 'nheelt@tinypic.com');
+insert into employee (name, birthday, email) values ('Bunnie', '2023/05/12', 'bbranfordu@usa.gov');
+insert into employee (name, birthday, email) values ('Neilla', '2022/11/15', 'nstoggellv@livejournal.com');
+insert into employee (name, birthday, email) values ('Melinde', '2023/03/06', 'mmerrisonw@miitbeian.gov.cn');
+insert into employee (name, birthday, email) values ('Rhea', '2022/09/22', 'rspriddlex@patch.com');
+insert into employee (name, birthday, email) values ('Mady', '2022/10/26', 'mpetchey@51.la');
+insert into employee (name, birthday, email) values ('Harry', '2023/07/14', 'hpriestmanz@admin.ch');
+insert into employee (name, birthday, email) values ('Dyane', '2022/11/26', 'dkoenen10@nba.com');
+insert into employee (name, birthday, email) values ('Nathanial', '2023/07/19', 'nfolkerts11@spotify.com');
+insert into employee (name, birthday, email) values ('Erskine', '2022/12/09', 'enelsen12@yelp.com');
+insert into employee (name, birthday, email) values ('Schuyler', '2023/05/21', 'sdeetlof13@go.com');
+insert into employee (name, birthday, email) values ('Iggie', '2022/11/16', 'isauvage14@ask.com');
+insert into employee (name, birthday, email) values ('Adaline', '2022/11/11', 'alabadini15@economist.com');
+insert into employee (name, birthday, email) values ('Cchaddie', '2022/08/23', 'cpotte16@t.co');
+insert into employee (name, birthday, email) values ('Flori', '2023/01/30', 'fbreawood17@loc.gov');
+insert into employee (name, birthday, email) values ('Felita', '2023/07/20', 'fezele18@ibm.com');
+insert into employee (name, birthday, email) values ('Holden', '2023/01/01', 'hroloff19@posterous.com');
+insert into employee (name, birthday, email) values ('Sheela', '2023/01/12', 'swiley1a@exblog.jp');
+insert into employee (name, birthday, email) values ('Hasty', '2023/01/09', 'hswanger1b@hexun.com');
+insert into employee (name, birthday, email) values ('Hasty', '2023/06/25', 'hclemas1c@vinaora.com');
+insert into employee (name, birthday, email) values ('Elset', '2023/05/29', 'emactrustie1d@china.com.cn');
+-----------------------------------------------------------------------------------------------------------------
+
+SELECT * FROM employee;
+			
+1	"Debor"	      "2023-05-04"	"dmunkley0@hubpages.com"
+2	"Jean"	      "2023-03-26"	"joolahan1@slashdot.org"
+3	"Kendricks"	  "2022-12-02"	"kbradmore2@sphinn.com"
+4	"Neall"	      "2022-12-07"	"nlodin3@google.fr"
+5	"Nanny"   	  "2022-08-21"	"nbaulcombe4@umn.edu"
+6	"Bartholomew" "2022-12-12"	"bskippen5@eepurl.com"
+7	"Bellanca"	  "2022-12-09"	"bdroghan6@pcworld.com"
+8	"Salli"       "2023-03-05"	"sseamons7@freewebs.com"
+9	"Zollie"	  "2023-06-24"	"zginn8@independent.co.uk"
+10	"Cori"	      "2023-01-04"	"crudgerd9@baidu.com"
+11	"Clayborn"	  "2023-03-20"	"carlta@clickbank.net"
+12	"Melisse"	  "2022-10-06"	"malfonsettob@ebay.co.uk"
+13	"Rozalie"	  "2022-11-13"	"rhazellc@networkadvertising.org"
+14	"Devin"	      "2022-12-02"	"dcoppingd@meetup.com"
+15	"Tedman"	  "2022-09-07"	"tspawelle@tuttocitta.it"
+16	"Lorens"	  "2022-10-13"	"lsharplef@newsvine.com"
+17	"Rycca"	      "2023-05-02"	"rorknayg@chicagotribune.com"
+18	"Janek"	      "2022-10-09"	"jfladeh@google.co.uk"
+19	"Abigale"	  "2023-06-02"	"apayliei@walmart.com"
+20	"Susette"	  "2023-02-08"	"sberresfordj@ftc.gov"
+21	"Vida"	      "2023-01-17"	"vnapthinek@storify.com"
+22	"Andee"	      "2023-07-10"	"aoslarl@sfgate.com"
+23	"Ertha"	      "2022-08-18"	"eleehanem@who.int"
+24	"Freddy"	  "2023-07-12"	"flemmersn@nifty.com"
+25	"Iormina"	  "2022-12-23"	"igagino@tripadvisor.com"
+26	"Jory"	      "2023-02-11"	"jgerrietp@pen.io"
+27	"Nesta"	      "2023-04-21"	"nimasonq@chron.com"
+28	"Killian"	  "2023-01-26"	"kballantiner@behance.net"
+29	"Marc"        "2023-03-02"	"mlemarquands@bravesites.com"
+30	"Natalee"	  "2022-12-06"	"nheelt@tinypic.com"
+31	"Bunnie"	  "2023-05-12"	"bbranfordu@usa.gov"
+32	"Neilla"	  "2022-11-15"	"nstoggellv@livejournal.com"
+33	"Melinde"	  "2023-03-06"	"mmerrisonw@miitbeian.gov.cn"
+34	"Rhea"	      "2022-09-22"	"rspriddlex@patch.com"
+35	"Mady"	      "2022-10-26"	"mpetchey@51.la"
+36	"Harry"	      "2023-07-14"	"hpriestmanz@admin.ch"
+37	"Dyane"       "2022-11-26"	"dkoenen10@nba.com"
+38	"Nathanial"   "2023-07-19"	"nfolkerts11@spotify.com"
+39	"Erskine"	  "2022-12-09"	"enelsen12@yelp.com"
+40	"Schuyler"	  "2023-05-21"	"sdeetlof13@go.com"
+41	"Iggie"	      "2022-11-16"	"isauvage14@ask.com"
+42	"Adaline"	  "2022-11-11"	"alabadini15@economist.com"
+43	"Cchaddie"    "2022-08-23"	"cpotte16@t.co"
+44	"Flori"	      "2023-01-30"	"fbreawood17@loc.gov"
+45	"Felita"	  "2023-07-20"	"fezele18@ibm.com"
+46	"Holden"	  "2023-01-01"	"hroloff19@posterous.com"
+47	"Sheela"	  "2023-01-12"	"swiley1a@exblog.jp"
+48	"Hasty"       "2023-01-09"	"hswanger1b@hexun.com"
+49	"Hasty"	      "2023-06-25"	"hclemas1c@vinaora.com"
+50	"Elset"       "2023-05-29"	"emactrustie1d@china.com.cn"
+-------------------------------------------------------------------------------------------------------------
+-- 3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+UPDATE employee
+SET name = 'Kaya'
+WHERE birthday = '2023-05-04'; 
+
+-- 1	"Debor"	      "2023-05-04"	"dmunkley0@hubpages.com"      UPDATE ÖNCESİ
+-- 1	"Kaya"	      "2023-05-04"	"dmunkley0@hubpages.com"      UPDATE SONRASI
+-------------------------------------------------------------------------------------------------------------
+
+UPDATE employee
+SET name = 'Mehmet',
+	birthday = '2023-03-26',
+	email = 'mehmetkaya@amail.com'
+WHERE id = 2;
+
+-- 2	"Jean"	      "2023-03-26"	"joolahan1@slashdot.org"     UPDATE ÖNCESİ
+-- 2	"Mehmet"	  "2023-03-26"	"mehmetkaya@amail.com"       UPDATE SONRASI
+-----------------------------------------------------------------------------------------------------------
+
+UPDATE employee
+SET birthday = '2022-12-02',
+	name = 'Duran',
+	email = 'duran@amail.com'
+WHERE id = 20;
+
+-- 20	"Susette"	  "2023-02-08"	"sberresfordj@ftc.gov"
+-- 20	"Duran"	      "2022-12-02"	"duran@amail.com"
+-----------------------------------------------------------------------------------------------------------
+UPDATE employee
+SET name = 'Suat',
+	email = 'suat@email.com'
+WHERE id = 13;
+
+
+-- 12	"Melisse"	  "2022-10-06"	"malfonsettob@ebay.co.uk"    UPDATE ÖNCESİ
+-- 12	"Suat"	      "2022-10-06"	"suat@email.com"             UPDATE SONRASI
+-----------------------------------------------------------------------------------------------------------
+
+UPDATE employee
+SET email = 'kara@umn.edu'
+WHERE name = 'Nanny';
+
+
+-- 5	"Nanny"   	  "2022-08-21"	"nbaulcombe4@umn.edu"       UPDATE ÖNCESİ
+-- 5	"Nanny"	      "2022-08-21"	"kara@umn.edu"              UPDATE SONRASI
+----------------------------------------------------------------------------------------------------------
+
+-- 4.Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+DELETE FROM employee
+WHERE id = 30;
+
+-- 30	"Natalee"	  "2022-12-06"	"nheelt@tinypic.com" DELETE
+-----------------------------------------------------------------------------------------------------------
+DELETE FROM employee
+WHERE birthday = '2023-07-12';
+
+
+-- 24	"Freddy"	  "2023-07-12"	"flemmersn@nifty.com"  DELETE
+-----------------------------------------------------------------------------------------------------------
+
+DELETE FROM employee
+WHERE email ='kara@email.com';        
+
+-- 5	"Nanny"	"2022-08-21"	"kara@umn.edu"    DELETE
+------------------------------------------------------------------------------------------------------------
+DELETE FROM employee
+WHERE name = 'Dyane';
+
+-- 37	"Dyane"       "2022-11-26"	"dkoenen10@nba.com"  DELETE
+------------------------------------------------------------------------------------------------------------
+DELETE FROM employee
+WHERE email ='emactrustie1d@china.com.cn';
+
+-- 50	"Elset"       "2023-05-29"	"emactrustie1d@china.com.cn"   DELETE
+
+------------------------------------------------------------------------------------------------------------
+
+SELECT * FROM employee;
+
+3	"Kendricks"	      "2022-12-02"	"kbradmore2@sphinn.com"
+4	"Neall"	          "2022-12-07"	"nlodin3@google.fr"
+6	"Bartholomew"	  "2022-12-12"	"bskippen5@eepurl.com"
+7	"Bellanca"	      "2022-12-09"	"bdroghan6@pcworld.com"
+8	"Salli"	          "2023-03-05"	"sseamons7@freewebs.com"
+9	"Zollie"	      "2023-06-24"	"zginn8@independent.co.uk"
+10	"Cori"	          "2023-01-04"	"crudgerd9@baidu.com"
+11	"Clayborn"	      "2023-03-20"	"carlta@clickbank.net"
+13	"Rozalie"	      "2022-11-13"	"rhazellc@networkadvertising.org"
+14	"Devin"	          "2022-12-02"	"dcoppingd@meetup.com"
+15	"Tedman"	      "2022-09-07"	"tspawelle@tuttocitta.it"
+16	"Lorens"	      "2022-10-13"	"lsharplef@newsvine.com"
+17	"Rycca"	          "2023-05-02"	"rorknayg@chicagotribune.com"
+18	"Janek"	          "2022-10-09"	"jfladeh@google.co.uk"
+19	"Abigale"	      "2023-06-02"	"apayliei@walmart.com"
+21	"Vida"	          "2023-01-17"	"vnapthinek@storify.com"
+22	"Andee"	          "2023-07-10"	"aoslarl@sfgate.com"
+23	"Ertha"	          "2022-08-18"	"eleehanem@who.int"
+25	"Iormina"	      "2022-12-23"	"igagino@tripadvisor.com"
+26	"Jory"	          "2023-02-11"	"jgerrietp@pen.io"
+27	"Nesta"	          "2023-04-21"	"nimasonq@chron.com"
+28	"Killian"	      "2023-01-26"	"kballantiner@behance.net"
+29	"Marc"	          "2023-03-02"	"mlemarquands@bravesites.com"
+31	"Bunnie"	      "2023-05-12"	"bbranfordu@usa.gov"
+32	"Neilla"	      "2022-11-15"	"nstoggellv@livejournal.com"
+33	"Melinde"	      "2023-03-06"	"mmerrisonw@miitbeian.gov.cn"
+34	"Rhea"	          "2022-09-22"	"rspriddlex@patch.com"
+35	"Mady"	          "2022-10-26"	"mpetchey@51.la"
+36	"Harry"	          "2023-07-14"	"hpriestmanz@admin.ch"
+38	"Nathanial"	      "2023-07-19"	"nfolkerts11@spotify.com"
+39	"Erskine"	      "2022-12-09"	"enelsen12@yelp.com"
+40	"Schuyler"	      "2023-05-21"	"sdeetlof13@go.com"
+41	"Iggie"	          "2022-11-16"	"isauvage14@ask.com"
+42	"Adaline"	      "2022-11-11"	"alabadini15@economist.com"
+43	"Cchaddie"	      "2022-08-23"	"cpotte16@t.co"
+44	"Flori"	          "2023-01-30"	"fbreawood17@loc.gov"
+45	"Felita"	      "2023-07-20"	"fezele18@ibm.com"
+46	"Holden"	      "2023-01-01"	"hroloff19@posterous.com"
+47	"Sheela"	      "2023-01-12"	"swiley1a@exblog.jp"
+48	"Hasty"	          "2023-01-09"	"hswanger1b@hexun.com"
+49	"Hasty"	          "2023-06-25"	"hclemas1c@vinaora.com"
+1	"Kaya"	          "2023-05-04"	"dmunkley0@hubpages.com"
+2	"Mehmet"	      "2023-03-26"	"mehmetkaya@amail.com"
+20	"Duran"	          "2022-12-02"	"duran@amail.com"
+12	"Suat"	          "2022-10-06"	"suat@email.com"
+5	"Nanny"	          "2022-08-21"	"kara@umn.edu"
+
+
+
