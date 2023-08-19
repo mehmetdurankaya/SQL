@@ -14,6 +14,9 @@
 # [ödev-9](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-9)
 # [ödev-10](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-10)
 # [ödev-11](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-11)
+# [ödev-12](https://github.com/mehmetdurankaya/SQL/blob/master/ODEV-12)
+
+
 ### ÖDEV-1
 <div>
 <span font-size:20px>
